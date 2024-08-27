@@ -1,0 +1,16 @@
+(MDP)
+	lifelong-rescue_grid_h-19_w-19
+(Agents)
+	sarsa_λ2_SR,0
+	sarsa_λ_SR,1
+	Sarsa(5)_SR,2
+	SR_LLRL,3
+	dyna_SR,4
+(Params)
+	samples : 40
+	instances : 1
+	episodes : 500
+	steps : 200
+	gamma : 0.99
+	track_disc_reward : False
+	is_lifelong : True

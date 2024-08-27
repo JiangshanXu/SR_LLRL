@@ -1,0 +1,15 @@
+(MDP)
+	lifelong-lava_world_h-11_w-11
+(Agents)
+	SR_Sarsa_λ,0
+	SR_Sarsa(5),1
+	SR_LLRL,2
+	SR_dyna,3
+(Params)
+	samples : 40
+	instances : 1
+	episodes : 200
+	steps : 200
+	gamma : 0.95
+	track_disc_reward : False
+	is_lifelong : True
